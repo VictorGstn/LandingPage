@@ -1,0 +1,147 @@
+body{
+    margin: 0 0 0 0;
+    background-color: #e7a14d;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+nav {
+    display: inline-block;
+    width: 100%;
+    margin: 0 auto;
+    background: #ce4244;
+    padding: 20px 0;
+}
+
+nav ul {
+    list-style: none;
+    text-align: right;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    display: inline-block;
+    padding: 15px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #ffffff;
+    font-weight: 800;
+    text-transform: uppercase;
+    transition: transform 0.5s;
+    margin: 0 20px;
+}
+
+.logo{
+    display: inline-block;
+    position: absolute;
+    left: 0px;
+    top: 10px;
+}
+
+nav li a:hover{
+    transform: scale(1.2);
+    color: #e7a14d;
+}
+
+footer{
+    background:#e7a14d;
+    height: 10px;
+    padding: 10px ;
+    font-weight: 1000;
+    font-size: large;
+    color: #ce4244;
+}
+
+.home{
+    background-color:#ce4244;
+    color: #ffffff;
+    padding-top: 100px;
+    padding-right: 200px;
+    padding-bottom: 50px;
+    height: 820px;
+    text-align: right;
+}
+
+.homedesc{
+    padding-top: 100px;
+    padding-left: 700px;
+    text-align: right;
+}
+
+button{
+    display: inline-block;
+    text-align: right;
+    font-size: 16px;
+    background-color: #e7a14d;
+    border: none;
+    padding: 15px 30px;
+    text-decoration: none;
+    color:#ce4244;
+    font-weight: 800;
+    cursor: pointer;
+}
+
+
+button:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.enjoy{
+    padding: 10px 10px 10px 10px;
+    height: auto;
+    height:800px;
+    float: left;
+}
+.imgprod {
+    padding: 10px 10px 10px 10px;
+    margin: 5px;
+    width: 300px;
+    background-color: #cf4244;
+    opacity: 0.5;
+    display: inline-block;
+}
+
+.imgprod:hover {
+    opacity: 1;
+}
+
+.imgprod img {
+    width: 100%;
+    height: auto;
+}
+  
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+.product{
+    padding: 20px 20px 50px 20px;
+    height: auto;
+    text-align: center;
+    z-index: 1;
+}
+
+.about{
+    padding: 30px 0px 60px 80px;
+    position: relative;
+    text-align: center;
+    height: 500px;
+    height: auto;
+    z-index: 1;
+    background-color: #ce4244;
+    color: #ffffff;
+}
+
+.about img{
+    float: right;
+    height: auto;
+    margin: 0px;
+}
+
+.about p{
+    text-align: center;
+    font-size: 23px;
+}
